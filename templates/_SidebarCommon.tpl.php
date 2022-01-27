@@ -1,0 +1,3 @@
+
+<div id="collectionAlert"></div>
+

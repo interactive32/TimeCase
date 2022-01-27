@@ -1,0 +1,14 @@
+# classic rewrite rules
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule (.*) index.php?_REWRITE_COMMAND=$1 [QSA,L]
+
+# alternative rewrite rules (without RewriteEngine On, for some CGI/FastCGI PHP installations)
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule (.*) index.php?_REWRITE_COMMAND=$1 [QSA,L]
+
+
+
+

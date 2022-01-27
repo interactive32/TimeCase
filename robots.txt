@@ -1,0 +1,5 @@
+# no crawling for robots, also present in the header as meta tag
+# remove if you want to appear on google search
+
+User-agent: *
+Disallow: /

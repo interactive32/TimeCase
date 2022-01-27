@@ -1,0 +1,283 @@
+/*!
+ * application style overrides and customizations
+ */
+
+
+/* modal vertical scroll fix for mobile */
+@media (max-width :770px) {
+.modal{
+	position: relative!important;
+}
+.modal-body{
+	max-height:none;
+}
+}
+
+.collectionContainer{
+	overflow: hidden;
+}
+
+.brand {
+	color: #fff!important;	
+}
+
+/* fixing body margin */
+@media (max-width :768px) {
+.hero-img {
+	display: none;
+}
+}
+/* /media */
+
+
+/* reset for font-awesome 2.0 and bootstrap 2.2.1 */
+[class^="icon-"], [class*=" icon-"] {
+  background-image:none;
+  height:auto;
+  line-height:normal;
+  margin-top:0;
+  vertical-align:baseline;
+  width:auto;
+}
+
+/* note that this gets overridden by bootstrap-responsive.min.css when screen size changes */
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+h1 {
+	margin-bottom: 8px;
+}
+
+.rtext {
+	text-align: right !important;
+}
+
+p.buttonContainer {
+}
+
+.btn-sidebar{
+	width: 100%;
+}
+
+table.collection tr:hover {
+    cursor: pointer;
+    background-color: #fbfbfb
+}
+
+table.collection th{
+    background-color: #eeeeee;
+}
+
+table.collection th:hover {
+    cursor: pointer;
+    background-color: #dfdfdf;
+}
+
+table th {
+	white-space: nowrap;
+}
+
+/* no text wrap inside table cells
+table td {
+	max-width: 200px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+*/
+
+input.date-picker
+{
+	width: 110px;
+	margin-top: -1px;
+
+	background-image:url("../bootstrap/img/calendar.png");
+	background-position:87px 4px;
+	background-repeat:no-repeat;
+}
+
+input.date-picker:hover
+{
+	cursor: pointer
+}
+
+input.time-picker
+{
+	width: 50px;
+}
+
+.searchContainer input, searchContainer button
+{
+	margin-top: 8px;
+}
+
+.searchContainer input
+{
+	margin-top: 8px;
+}
+
+/* search filter button */
+.input-append button.add-on {
+    height: inherit !important;
+    color: #999999;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 8px;
+}
+
+span.loader {
+	margin: 0px;
+	display: inline-block;
+	width: 150px;
+}
+
+span.loader .bar {
+	display: inline-block;
+	width: 100%;
+	height: 30px;
+}
+
+.progress {
+	margin: 0;
+}
+
+#currentTimetrack{
+	font-size: 20px;
+	line-height: 20px;
+	height: 20px;
+	color: #FFFFFF;
+	display: block;
+	float: right;
+	padding: 7px 5px;
+}
+
+footer {
+	text-align: center;
+	color: #808080;
+}
+
+@media (min-width :480px) {
+
+	#startInputContainer .control-label,
+	#endInputContainer .control-label {
+		width: 120px
+	}
+	
+	#startInputContainer .controls,
+	#endInputContainer .controls {
+		margin-left: 140px
+	}
+
+}
+
+.timespan {
+	min-width: 300px;
+}
+
+#descriptionInputContainer {
+	margin: 0;
+}
+
+.quick-times .start-btns {
+	position: relative;
+	display: inline-block;
+}
+
+.quick-times .ctrl,
+.quick-times .restart {
+	cursor: pointer;
+}
+
+.quick-times .duration{
+	position: absolute; 
+	cursor: default;
+	right: 25px; 
+	top: 34px;
+}
+
+#startInputContainer{
+	margin-bottom: 30px;
+}
+
+#startInputContainer input.date-picker,
+#endInputContainer input.date-picker {
+  background-image: url("../bootstrap/img/calendar.png");
+  background-position: 72px 4px;
+  width: 90px;
+}
+
+#setDefaultsDialog fieldset {
+	padding: 50px 0 150px 0;
+}
+
+#filterContainer .control-group {
+	margin-right: 10px;
+}
+
+
+#filterContainer .combo input {
+	width: 150px;
+}
+
+select {
+	width: 191px;
+}
+
+table.report th,
+table.report td {
+	background: none;
+	line-height: 16px;
+	padding: 4px;
+}
+
+#report-total {
+	font-size: 14px;
+	font-weight: 700;
+	padding: 6px 8px;
+	margin-bottom: 20px;
+}
+
+body.report-html {
+	margin: 40px; 
+	padding: 0;
+}
+
+/* reports: align duration and minutes to the right */
+body.report-html td:nth-child(7),
+body.report-html td:nth-child(8) {
+	text-align: right;
+}
+
+/* patch */
+.dropdown-menu .divider {
+	margin: 10px 1px;
+}
+
+/* v2.0 */
+input[type="text"] {
+    padding: 3px 3px;
+}
+.btn.ctrl {
+    padding: 4px 12px;
+}
+.datepicker-days {
+    color: #ecf0f1;
+}
+.date-picker {
+    background: none!important;
+}
+.btn.active {
+    background-color: #1abc9c;
+}
+.btn.add-on {
+    padding: 5px;
+}
+.duration .label {
+    padding: 2px 4px;
+}
+#currentTimetrack {
+    font-size: 25px;
+    padding: 12px 5px;
+}
+
