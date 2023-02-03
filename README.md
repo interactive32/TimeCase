@@ -1,6 +1,6 @@
-## WARNING: THIS PROJECT IS NO LONGER MAINTAINED!
-
-![TimeCase](https://interactive32.com/resources/timecase.png)
+![TimeCase](https://interactive32.com/resources/timecase2.png)
+![TimeCase](https://interactive32.com/resources/timecase3.png)
+![TimeCase](https://interactive32.com/resources/timecase4.png)
 
 # TimeCase
 TimeCase helps you keep track of your time.
