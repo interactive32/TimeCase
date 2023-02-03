@@ -6,7 +6,7 @@
 TimeCase helps you keep track of your time.
 
 
-# Usage with Docker and docker-compose
+# Usage with Docker and docker-compose (recommended)
 Clone with git:
 ```
 git clone git@github.com:interactive32/TimeCase.git && cd TimeCase
@@ -36,21 +36,7 @@ admin/admin123
 After login, you should add your first Customer and a Project so you can start tracking your time.
 
 
-## About TimeCase
-
-TimeCase helps you keep track of your time. It is a powerful yet easy to use web application for everyone who wants to see how much time is spent on certain tasks and projects.
-
-Version: TimeCase v2.0
-
-For more info please visit https://interactive32.com
-
-
-## Documentation
-
-Documentation is located under documentation folder. Navigate to index.html file with your browser.
-
-
-## Server installation
+## Server installation (alternative to docker)
 
 Follow these steps to install and configure TimeCase:
 
