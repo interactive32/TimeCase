@@ -6,7 +6,7 @@
 TimeCase helps you keep track of your time.
 
 
-# Usage with Docker and docker-compose (recommended)
+# Usage with Docker (recommended method)
 Clone with git:
 ```
 git clone git@github.com:interactive32/TimeCase.git && cd TimeCase
