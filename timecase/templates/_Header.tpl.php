@@ -135,7 +135,7 @@
 
 		<p>Version: TimeCase v2.0</p>
 
-		<p>For more info please visit <a target="_blank" href="http://timecase.net">http://timecase.net</a></p>
+		<p>For more info please visit <a target="_blank" href="https://interactive32.com">https://interactive32.com</a></p>
 		
 	
 		<br />

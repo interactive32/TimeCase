@@ -52,7 +52,7 @@ TimeCase helps you keep track of your time. It is a powerful yet easy to use web
 
 Version: TimeCase v2.0
 
-For more info please visit http://timecase.net
+For more info please visit https://interactive32.com
 
 Copyright interactive32.com. All rights reserved.
 

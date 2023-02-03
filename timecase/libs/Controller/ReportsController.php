@@ -259,7 +259,7 @@ class ReportsController extends AppBaseController
 		<head>
 		<meta charset="utf-8">
 		<base href="'.GlobalConfig::$ROOT_URL.'">
-		<title>Report - TimeCase.net </title>
+		<title>Report - TimeCase </title>
 		<meta content="width=device-width, initial-scale=1.0" name="viewport">
 		<meta content="TimeCase" name="description">
 		<meta content="alcalbg | interactive32.com" name="author">
