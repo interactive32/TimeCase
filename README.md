@@ -1,15 +1,15 @@
-![TimeCase](https://interactive32.com/resources/timecase2.png)
-![TimeCase](https://interactive32.com/resources/timecase3.png)
-![TimeCase](https://interactive32.com/resources/timecase4.png)
-
 # TimeCase
-TimeCase helps you keep track of your time.
+TimeCase is a free, open-source, self-hosted, time tracking web application.
 
 - Keep track of your time with accuracy and precision. Use the same web app on your desktop, tablet or phone.
 - Allow your customers to login and analyze time spent on their projects and view reports.
 - You can assign different roles to different users and pick team managers.
 - View and analyze reports in real-time with flexible filters. Export data as csv file or display them as printable html.
 
+# Screenshots
+![TimeCase](https://interactive32.com/resources/timecase2.png)
+![TimeCase](https://interactive32.com/resources/timecase3.png)
+![TimeCase](https://interactive32.com/resources/timecase4.png)
 
 # Usage with Docker (recommended method)
 Clone with git:
