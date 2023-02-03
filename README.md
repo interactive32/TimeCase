@@ -1,3 +1,5 @@
+## WARNING: THIS PROJECT IS NO LONGER MAINTAINED!
+
 ![TimeCase](https://interactive32.com/resources/timecase.png)
 
 # TimeCase
