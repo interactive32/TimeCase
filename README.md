@@ -17,9 +17,8 @@ Start with Docker:
 docker compose up -d
 ```
 
-Fix permissions & prepare database
+Create and populate the database
 ```
-docker exec -i timecase-backend chown -R www-data:www-data /var/www/html
 docker exec -i timecase-db mysql -uroot -pmypass -e 'create database timecase_database'
 docker exec -i timecase-db mysql -uroot -pmypass timecase_database < timecase/database/database.sql
 ```
@@ -33,7 +32,6 @@ Default username login:
 ```
 admin/admin123
 ```
-After login, you should add your first Customer and a Project so you can start tracking your time.
 
 
 # Server installation (alternative to docker)
