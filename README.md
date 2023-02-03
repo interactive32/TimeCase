@@ -1,5 +1,8 @@
+![TimeCase](https://interactive32.com/resources/timecase.png)
+
 # TimeCase
 TimeCase helps you keep track of your time.
+
 
 # Usage with Docker and docker-compose
 Clone with git:
