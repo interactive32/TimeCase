@@ -58,12 +58,12 @@ Some options will not be available for all access levels - for more information 
 Track your time either by manually selecting time span or by auto-tracking. Auto-tracking is done vie the start/stop button. When start button is pressed time will start to flow and after you click on stop timer button dialog will appear and you can save this entry. On this screen you can also select default project and default work type so you don't have to select this every time. By clicking on existing time entry you can edit this record. 
 
 ## Statuses
-All customers and projects records have a status field. There are three default statuses - important, active and closed. All records will be sorted by status so important will go first. If record is has status closed then this record will not show on drop-down menus except on reports. This gives you ability to archive old customer/project records and make drop-down selections smaller and faster. You can add additional statuses but you cannot change basic three types.  
+All customers and projects records have a status field. There are three default statuses - important, active and closed. All records will be sorted by status so important will go first. If record has closed status, then this record will not show on drop-down menus except on reports. This gives you ability to archive old customer/project records and make drop-down selections smaller and faster. You can add additional statuses but you cannot change basic three types.  
 
 ## Account settings
 All users except customers have ability to change their personal account settings like full name, email, password and details.
 
-## AccessLevels
+# AccessLevels
 TimeCase has five different access levels:
  
 
@@ -85,7 +85,7 @@ This access level cannot see reports.
 Customers who are allowed to login can access reports based on assigned projects. 
 They can only see their own projects and tracking times assigned to them.
  
-## Configuration
+# Configuration
 Database server settings, timezone configuration:
 ```
 _machine_config.php
