@@ -24,11 +24,9 @@ Usage:
 http://localhost:9000
 ```
 
-Available users:
+Default username login:
 ```
-administrator/admin123
-user1/user1
-user2/user2
+admin/admin123
 ```
 
 # CONTENTS:
