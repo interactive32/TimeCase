@@ -28,6 +28,7 @@ Default username login:
 ```
 admin/admin123
 ```
+After login, you should add your first Customer and a Project so you can start tracking your time.
 
 # CONTENTS:
 
