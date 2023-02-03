@@ -10,10 +10,10 @@ require_once 'verysimple/Phreeze/ConnectionSetting.php';
 
 /** database connection settings */
 GlobalConfig::$CONNECTION_SETTING = new ConnectionSetting();
-GlobalConfig::$CONNECTION_SETTING->ConnectionString = "localhost";
-GlobalConfig::$CONNECTION_SETTING->DBName = "timecase";
+GlobalConfig::$CONNECTION_SETTING->ConnectionString = "db";
+GlobalConfig::$CONNECTION_SETTING->DBName = "timecase_database";
 GlobalConfig::$CONNECTION_SETTING->Username = "root";
-GlobalConfig::$CONNECTION_SETTING->Password = "";
+GlobalConfig::$CONNECTION_SETTING->Password = "mypass";
 
 /** timezone */
 date_default_timezone_set("UTC");

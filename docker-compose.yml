@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+  timecase:
+    container_name: timecase-backend
+    restart: unless-stopped
+    image: 'alcalbg/php5.6-apache'
+      # alternative image: 'ascdc/apache2-php56:latest'
+    ports:
+      - "9000:80"
+    volumes:
+      - ./timecase:/var/www/html
+    depends_on:
+      - db
+    tty: true
+    networks:
+      - timecase-network
+
+  db:
+    container_name: timecase-db
+    image: 'mysql:5.5'
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: mypass
+    volumes:
+      - ./dbdata:/var/lib/mysql
+    networks:
+        - timecase-network
+
+networks:
+    timecase-network:
