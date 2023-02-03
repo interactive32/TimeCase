@@ -44,6 +44,8 @@ CREATE TABLE IF NOT EXISTS `customers` (
   KEY `status_id` (`status_id`)
 ) DEFAULT CHARSET=utf8;
 
+INSERT INTO `customers` VALUES (1,'Default Customer',2,'','admin','$2y$10$sJTr47FYQp4oax75bF5cbeIMxpX3ZSMbH2qq32xsKrRWYvZoH1gEG',0,'','','','','','');
+
 
 DROP TABLE IF EXISTS `levels`;
 CREATE TABLE IF NOT EXISTS `levels` (
@@ -76,6 +78,7 @@ CREATE TABLE IF NOT EXISTS `projects` (
   KEY `status_id` (`status_id`)
 ) DEFAULT CHARSET=utf8;
 
+INSERT INTO `projects` VALUES (1,'Project1',1,2,'2023-01-01 13:00:00','2023-02-03 13:00:00','2023-01-01 13:00:00',0,'');
 
 DROP TABLE IF EXISTS `statuses`;
 CREATE TABLE IF NOT EXISTS `statuses` (
